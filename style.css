@@ -14,13 +14,15 @@ html{
 }
 
 #myCanvas {
+  background-image:url("https://cdn.glitch.global/7bd21ad5-b455-401a-95e1-fc20741ca0bd/peaceful-rural-surroundings-daylight_23-2149125511.avif?v=1744387000846");
   border: 1px solid black;
+  
 }
 
 .container{
   display: flex;
   flex-wrap: wrap;
-  background-color: white;
+ background-image:url("https://i.pinimg.com/736x/c5/17/ed/c517ed2a142b3e6376344a15a44bdf76.jpg");
   justify-content: space-around;
   align-items: flex-start;
   padding-bottom: 20px;
@@ -32,9 +34,19 @@ html{
   object-fit: cover;
   border: 1px solid black;
 }
+h5{color:rgb(226,228,231);}
+a{color:rgb(214, 210, 156);} 
+
+/* mouse over link */
+a:hover {
+  color: rgb(193, 200, 209 );
+}
+
+
 
 h2{
-  color: black;
+  color: rgb(226, 228, 231);
+ 
 /*   font-size: 10px; */
 }
 
@@ -43,5 +55,5 @@ h2{
 }
 
 #end{
-  text-align: right;
+  text-align: center;
 }
